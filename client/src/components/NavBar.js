@@ -20,7 +20,7 @@ const NavBar = observer(() => {
     return (
         <Navbar bg="dark" variant="dark">
             <Container>
-                <NavLink style={{color:'white'}} to={SHOP_ROUTE}>AlimatShop</NavLink>
+                <NavLink style={{color:'white'}} to={SHOP_ROUTE}>AlimatShop (093-71-61-384)</NavLink>
                 {user.isAuth ?
                     <Nav className="ml-auto" style={{color: 'white'}}>
                         <Button
